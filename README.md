@@ -216,5 +216,14 @@ Resultado: [[1, 'Yo', True], [3, 'Yo', True]]
 ✅ Tarea completada. Redis está cacheando las consultas a PostgreSQL.
 ❄ Ahora sí, ¡a disfrutar las vacaciones de invierno! 🏂
 ```
+## Conclusión personal
+Redis es como un asistente personal que recuerda todo por vos. PostgreSQL hace el trabajo pesado una sola vez, y Redis se encarga de repetirlo rápido. La combinación es ideal para aplicaciones que necesitan responder rápido sin matar al servidor.
+
+## Qué aprendí
+- Los permisos en PostgreSQL son como los de tu casa: hay que dar la llave correcta a cada persona.
+- Redis envejece los datos (TTL) para que no queden obsoletos.
+- Python es el pegamento que une todo.
+
+
 
 Gracias por leer, que les vaya bien
