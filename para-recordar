@@ -1,0 +1,23 @@
+#instalar
+alias quiero = sudo 
+alias aplicación = apt 
+alias instalar = install 
+alias redis-server = redis-server
+alias si = -y
+
+#estado
+alias saber_el = systemctl
+alias estado_de = status 
+alias redis = redis
+
+#ping
+alias redis_cliente = redis-cli 
+alias hacer_ping = ping
+
+#para la contraseña
+alias acceso = -a
+
+#no hace falta esta
+#alias postgresql = postgresql
+#para el postgresql
+alias contribucion_de_postgresql = postgresql-contrib
