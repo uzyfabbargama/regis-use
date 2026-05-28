@@ -21,3 +21,7 @@ alias acceso = -a
 #alias postgresql = postgresql
 #para el postgresql
 alias contribucion_de_postgresql = postgresql-contrib
+
+alias yo = -u 
+#alias postgres 
+alias entrar = psql
