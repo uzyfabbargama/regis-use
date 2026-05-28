@@ -1,0 +1,6 @@
+# En la carpeta del proyecto
+npm init -y
+npm install express pg redis
+
+# Iniciar
+node index.js
