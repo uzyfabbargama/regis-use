@@ -1,27 +1,27 @@
 #instalar
-alias quiero= "sudo" 
-alias aplicación= "apt" 
-alias instalar= "install" 
-alias redis-server= "redis-server"
-alias si= "-y"
+export quiero='sudo' 
+export aplicacion='apt' 
+export instalar='install' 
+export redis_server='redis-server'
+export si='-y'
 
 #estado
-alias saber_el= "systemctl"
-alias estado_de= "status"
-alias redis= "redis"
+export saber_el='systemctl'
+export estado_de='status'
+export redis='redis'
 
 #ping
-alias redis_cliente= "redis-cli"
-alias hacer_ping= "ping"
+export redis_cliente='redis-cli'
+export hacer_ping='ping'
 
 #para la contraseña
-alias acceso= "-a"
+export acceso='-a'
 
 #no hace falta esta
-#alias postgresql= "postgresql"
+#export postgresql='postgresql'
 #para el postgresql
-alias contribucion_de_postgresql= "postgresql-contrib"
+export contribucion_de_postgresql='postgresql-contrib'
 
-alias yo= "-u"
-#alias postgres
-alias entrar= "psql"
+export yo='-u'
+#export postgres
+export entrar='psql'
