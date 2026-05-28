@@ -21,7 +21,7 @@
   redis-cli ping
   su respuesta: PONG #jeje
   ```
-#### Tercero
+#### Tercero Configuras
   bash
   ```
   #Le pones tu contraseña
@@ -31,13 +31,13 @@
   #te responde ↓
   OK
   ```
-#### Cuarto
+#### Cuarto instalas Postgre
   bash
   ```
   #para instalar
   sudo apt install postgresql postgresql-contrib -y
   ```
-#### Quinto
+#### Quinto Instalación de Python y bibliotecas
   bash
   ```
   #instalamos 
@@ -46,7 +46,20 @@
   #si da error el piṕ3, usa --break-system-packages.
   pip3 install redis psycopg2-binary --break-system-packages #no es seguro, pero es rápido
   ```
-#### Sexto
+#### Sexto Entramos a Postgre y creamos la base de datos
+bash
+```
+# Entrar como usuario postgres
+sudo -u postgres psql
+```
+postgresql
+```
+CREATE DATABASE tarea_escuela;
+CREATE USER tarea_user WITH PASSWORD 'vacaciones2026';
+GRANT ALL PRIVILEGES ON DATABASE tarea_escuela TO tarea_user;
+\q
+```
+#### Septimo Codeas un poco en Python para configurar y conectar
   Escribes en Python; el código acontinuación.
   python
   ```
