@@ -1,0 +1,7 @@
+# Primera vez (va a PostgreSQL)
+curl http://localhost:3000/api/estudiantes
+# Debería ver: 🐘 (Consultando PostgreSQL)
+
+# Segunda vez (va a Redis)
+curl http://localhost:3000/api/estudiantes
+# Debería ver: 🎯 (Respondido desde Redis)
