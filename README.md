@@ -10,7 +10,7 @@
   bash
   ```
   #descargamos para debian, desde los repositorios oficiales
-  sudo apt install redis-server -
+  sudo apt install redis-server -y
   ```
 #### Segundo, comprobamos que esté instalado
   bash
