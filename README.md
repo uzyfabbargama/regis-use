@@ -1,7 +1,7 @@
 # regis-use
 
 ### Bienvenidos
-  Hoy voy a documentar como conecté mi base de datos de prueba con Regis, (usando Python), con PostgreSQL
+  Hoy voy a documentar como conecté mi base de datos de prueba con Redis, (usando Python), con PostgreSQL
 
 ### ¿Por qué lo hicimos?
   bastante simple, para acelerar las consultas, ya que PostgreSQL es como un maestro cargando una mochila de ladrillos; puede hacer todo, pero carga mucho
